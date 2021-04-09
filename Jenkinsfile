@@ -1,4 +1,4 @@
-
+nodenvm{
 
     checkout scm
 
@@ -10,3 +10,4 @@
         customImage.push()
     }
 
+}
