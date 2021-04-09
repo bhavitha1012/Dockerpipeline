@@ -1,4 +1,4 @@
-nsnode {
+
 
     checkout scm
 
@@ -9,4 +9,4 @@ nsnode {
         /* Push the container to the custom Registry */
         customImage.push()
     }
-}
+
