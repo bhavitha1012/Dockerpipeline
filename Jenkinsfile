@@ -4,7 +4,7 @@ nodenvm{
 
     docker.withRegistry('https://registry.hub.docker.com', 'dockerHub') {
 
-        def customImage = docker.build("798167/jenkinsimage-master")
+        def customImage = docker.build("798167/jenkinsimage")
 
         /* Push the container to the custom Registry */
         customImage.push()
